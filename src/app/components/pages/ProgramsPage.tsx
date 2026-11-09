@@ -15,7 +15,6 @@ import festiveBgImage from 'figma:asset/cc9f4e05b887061b022589ed18385a04a821f4a7
 import pianoImage from 'figma:asset/bfb989abcfff0a38e43f223b64cfdb63d74168d3.jpg';
 import danceImage from 'figma:asset/170edb79aa60a97d825e24f2e18b2f677adb8115.jpg';
 import artImage from 'figma:asset/b1b466c7d9c06e1beecee53a0f197777f6f93537.jpg';
-import * as svgMask1 from '../../imports/svg-0m0b4';
 
 export function ProgramsPage() {
   const motherToddlerProgram = {
@@ -317,7 +316,7 @@ export function ProgramsPage() {
                       alt="Festive celebration"
                       className="w-full h-full object-cover rounded-full"
                       style={{
-                        clipPath: svgMask1.default
+                        clipPath: undefined
                       }}
                     />
                   </div>
@@ -329,7 +328,7 @@ export function ProgramsPage() {
                       alt="Children celebrating"
                       className="w-full h-full object-cover rounded-full"
                       style={{
-                        clipPath: svgMask1.default
+                        clipPath: undefined
                       }}
                     />
                   </div>
@@ -341,7 +340,7 @@ export function ProgramsPage() {
                       alt="Festival activities"
                       className="w-full h-full object-cover rounded-full"
                       style={{
-                        clipPath: svgMask1.default
+                        clipPath: undefined
                       }}
                     />
                   </div>
